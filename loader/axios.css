@@ -1,0 +1,43 @@
+
+.btnc{
+    width: 120px !important;
+    height: 35px !important;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.btnc:hover{
+    box-shadow: 0 0 30px 0 rgb(0, 0, 0);
+}
+.loader{
+    border:5px solid #f35;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-left-color: #333;
+    animation: spinner .5s linear infinite;
+    visibility: hidden;
+    opacity:0;
+}
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.blue{
+    background: #22f;
+}.visible{
+    visibility: visible;
+    opacity: 1;
+}.red{
+    background: #f11;
+}
+#res{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    color: #ff3;
+}
