@@ -34,8 +34,9 @@ function cronometro(){
     $('.min').innerHTML = `min:${min}`
     $('.sec').innerHTML = `sec:${Math.trunc(sec)}`
     $('.ms').innerHTML = `ms:${ms}`
-    
+    // cuando los segundos lleguen a 59 o 60 por las dudas se ejecuta la funcion para guardar una nuevo horario, que tiene que retornar el valor si no, no funciona
     if(sec >=59){min++, newd()}
+    // lo mismo los minutos pero no es necerio guardar un nuevo date, simplemete los minutos quedan igual a 0
     if(min >=59){hh++, min = 0}
 
 }
