@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}.ctn{
+    width: 300px;
+    height: 160px;
+    border: 1px solid #000;
+    background: #222;
+    border-radius: 3px;
+    padding:30px ;
+}
+.cronometro{
+    width: 300px;
+    height: 150px;
+    background: #333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.cronometro > div{
+    width:50px;
+    height: 20px;
+    background: cornflowerblue;
+    padding:5px;
+    border-radius: 3px;
+}
+.a{
+    background: #198754;
+}
+.b{
+    background: #dc3545;
+}
+.c{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    color: #fff;
+}
